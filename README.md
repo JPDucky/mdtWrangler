@@ -21,7 +21,6 @@ Once you have python installed, the only other dependency is `fasthtml`. You can
 
 The next Step is to run in `CMD` `python serve.py`
 
--You may need to adjust the paths within the file to match wherever your files are stored.-
 Copy `.env.example` to `.env` and make sure to correct the variables to correct paths on your filesystem
 
 Point the `windows.ipxe` file at the correct paths as well, and then you should be able to select windows from your boot server.
