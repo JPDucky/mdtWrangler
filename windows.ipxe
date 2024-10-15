@@ -9,7 +9,7 @@ initrd -n bootmgr http://{host_ip}:5001/bootmgr bootmgr || goto failed
 initrd -n bootmgr.efi http://{host_ip}:5001/bootmgr.efi bootmgr.efi || goto failed
 initrd -n bcd http://{host_ip}:5001/bcd BCD || goto failed
 initrd -n boot.sdi http://{host_ip}:5001/boot.sdi boot.sdi || goto failed
-initrd -n boot.wim http://{host_ip}:5001/LiteTouchPE_x64.wim boot.wim || goto failed
+initrd -n boot.wim http://{host_ip}:5001/litetouchpe_x64.wim boot.wim || goto failed
 
 echo All files successfully loaded
 boot || goto failed
